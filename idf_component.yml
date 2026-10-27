@@ -17,9 +17,11 @@ targets:
   - esp32s31
 dependencies:
   esp-idf-lib/i2cdev:
-    version: "*"
-  esp-idf-lib/esp_idf_lib_helpers:
-    version: "*"
+    git: https://github.com/blasko03/i2cdev.git
+    version: main
+  esp_idf_lib_helpers:
+    git: https://github.com/blasko03/esp_idf_lib_helpers.git
+    version: main
 maintainers:
   - Ruslan V. Uss (@UncleRus) <unclerus@gmail.com>
 url: https://github.com/esp-idf-lib/core
