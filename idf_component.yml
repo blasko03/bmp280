@@ -14,7 +14,6 @@ targets:
   - esp32s2
   - esp32s3
   - esp32s31
-  - esp32s31
 dependencies:
   esp-idf-lib/i2cdev:
     git: https://github.com/blasko03/i2cdev.git
